@@ -17,7 +17,7 @@ void Ejes (int width)
        glVertex3f(1.0,0.0,0.0);
        glColor3f(0.0,1.0,0.0);
        glVertex3f(0.0,-1.0,0.0);
-       glColor3f(1.0,1.0,0.0);
+       glColor3f(1.0,1.0,0.0); //En modo flat el eje se queda en amarillo, para que se vea en verde y amarillo hay que poner GL_SMOOTH. FLAT coge el último color activado
        glVertex3f(0.0,1.0,0.0);   
     glEnd();
    
@@ -55,28 +55,28 @@ void Monigote ()
 static void Init( )
 {
 
-   glShadeModel( GL_FLAT);
+   glShadeModel( GL_FLAT); //Si cambiamos a GL_SMOOTH te hace interpolación de colores
 }
 
 
 static void Reshape( int width, int height )
 {
-    glViewport(0, 0, (GLint)width, (GLint)height);
-    glOrtho (-1.0, 1.0,-1.0, 1.0, -10, 10.0);
+    glViewport(0, 0, (GLint)width, (GLint)height); //Se le va pasando el nuevo valor cuando se cambia el tamaño
+    glOrtho (-1.0, 1.0,-1.0, 1.0, -10, 10.0); //Espacio del mundo, los dos primeros x los siguientes la y y los siguientes la z
 }
 
-static void Display( )
+static void Display( ) //Es decir, display vuelve a crear lo que había que pintar.
 {
 
   glClearColor(0.5,0.5,0.5,0.0);
-  glClear( GL_COLOR_BUFFER_BIT );
+  glClear( GL_COLOR_BUFFER_BIT ); //Limpiamos el buffer para que no arrastre la imagen anterior
    
   
    
    Ejes(6);
    Monigote();
    
-   glFlush();
+   glFlush(); 
 }
 
 
@@ -101,9 +101,9 @@ int main( int argc, char **argv )
 
    Init();
 
-   glutReshapeFunc(Reshape);
-   glutDisplayFunc(Display);
-   glutKeyboardFunc(Keyboard);
+   glutReshapeFunc(Reshape); //Cambio de tamanio
+   glutDisplayFunc(Display); //Cuando está oculta nuestra pantalla, pinchamos y se vuelve a ver
+   glutKeyboardFunc(Keyboard); //En este caso solo está activa la tecla de escape
   
    glutMainLoop( );
 
