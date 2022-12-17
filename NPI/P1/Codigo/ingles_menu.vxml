@@ -1,0 +1,191 @@
+<vxml version="2.1" xml:lang="en-US" application="main.vxml">
+
+<form id="menu">
+
+<block>
+	<if cond="(session.diaGlobal == 'monday')">
+		<if cond="session.a_consultarGlobal == 'complete' || session.a_consultarGlobal  == 'complete menu'">
+			<prompt>
+				Cuba style rice.
+				Hake in Mozarabic sauce.
+				Apple.
+
+			</prompt>
+		</if>
+		<if cond="session.a_consultarGlobal == 'first'">
+			<prompt>
+				Cuba style rice.
+
+			</prompt>
+		</if>
+		<if cond="session.a_consultarGlobal == 'second'">
+			<prompt>
+				Hake in Mozarabic sauce.
+
+			</prompt>
+		</if>
+		<if cond="session.a_consultarGlobal == 'Dessert'">
+			<prompt>
+				Apple.
+
+			</prompt>
+		</if>
+	</if>
+	<if cond="(session.diaGlobal == 'tuesday')">
+		<if cond="session.a_consultarGlobal == 'complete' || session.a_consultarGlobal == 'complete menu'">
+			<prompt>
+				Cooked ham and cheese pizza / Cheese pizza.
+				Grilled pork steak.
+				Plums.
+
+			</prompt>
+		</if>
+		<if cond="session.a_consultarGlobal == 'first'">
+			<prompt>
+				Cooked ham and cheese pizza / Cheese pizza.
+
+			</prompt>
+		</if>
+		<if cond="session.a_consultarGlobal == 'second'">
+			<prompt>
+				Grilled pork steak.
+
+			</prompt>
+		</if>
+		<if cond="session.a_consultarGlobal == 'Dessert'">
+			<prompt>
+				Plums.
+
+			</prompt>
+		</if>
+	</if>
+	<if cond="(session.diaGlobal == 'wednesday')">
+		<if cond="session.a_consultarGlobal == 'complete' || session.a_consultarGlobal == 'complete menu'">
+			<prompt>
+				Mixed salad.
+				Cheese, potato and bacon omelette / Florentine Omelette.
+				Plums.
+
+			</prompt>
+		</if>
+		<if cond="session.a_consultarGlobal == 'first'">
+			<prompt>
+				Mixed salad.
+
+			</prompt>
+		</if>
+		<if cond="session.a_consultarGlobal == 'second'">
+			<prompt>
+				Cheese, potato and bacon omelette / Florentine Omelette.
+
+			</prompt>
+		</if>
+		<if cond="session.a_consultarGlobal == 'Dessert'">
+			<prompt>
+				Plums.
+
+			</prompt>
+		</if>
+	</if>
+	<if cond="(session.diaGlobal == 'thursday')">
+		<if cond="session.a_consultarGlobal == 'complete' || session.a_consultarGlobal == 'complete menu'">
+			<prompt>
+				Milanese-style minestrone soup / Saffron vegetable stew with bird tongues.
+				Alpujarra dish / Fried egg with Spanish potatoes.
+				Peach and coconut flan.
+
+			</prompt>
+		</if>
+		<if cond="session.a_consultarGlobal == 'first'">
+			<prompt>
+				Milanese-style minestrone soup / Saffron vegetable stew with bird tongues.
+
+			</prompt>
+		</if>
+		<if cond="session.a_consultarGlobal == 'second'">
+			<prompt>
+				Alpujarra dish / Fried egg with Spanish potatoes.
+
+			</prompt>
+		</if>
+		<if cond="session.a_consultarGlobal == 'Dessert'">
+			<prompt>
+				Peach and coconut flan.
+
+			</prompt>
+		</if>
+	</if>
+	<if cond="(session.diaGlobal == 'friday')">
+		<if cond="session.a_consultarGlobal == 'complete' || session.a_consultarGlobal == 'complete menu'">
+			<prompt>
+				Spaghetti with sanfaina sauce with tuna and anchovies / Spaghetti on spinach and cream cheese.
+				Montecristo chicken breast / Spinach koftas.
+				Grapes.
+
+			</prompt>
+		</if>
+		<if cond="session.a_consultarGlobal == 'first'">
+			<prompt>
+				Spaghetti with sanfaina sauce with tuna and anchovies / Spaghetti on spinach and cream cheese.
+
+			</prompt>
+		</if>
+		<if cond="session.a_consultarGlobal == 'second'">
+			<prompt>
+				Montecristo chicken breast / Spinach koftas.
+
+			</prompt>
+		</if>
+		<if cond="session.a_consultarGlobal == 'Dessert'">
+			<prompt>
+				Grapes.
+
+			</prompt>
+		</if>
+	</if>
+	<if cond="(session.diaGlobal == 'saturday')">
+		<if cond="(session.facultadGlobal == 'Fuentenueva')">
+			<if cond="session.a_consultarGlobal == 'complete' || session.a_consultarGlobal == 'complete menu'">
+				<prompt>
+					Paninis / Vegetarian paninis.
+					Dogfish in marinade / Artichokes with honey.
+					Escalivada / Grilled Zucchini.
+					Galician milk cake.
+
+				</prompt>
+			</if>
+			<if cond="session.a_consultarGlobal == 'first'">
+				<prompt>
+					Paninis / Vegetarian paninis.
+
+				</prompt>
+			</if>
+			<if cond="session.a_consultarGlobal == 'second'">
+				<prompt>
+					Dogfish in marinade / Artichokes with honey.
+					Escalivada / Grilled Zucchini.
+
+				</prompt>
+			</if>
+			<if cond="session.a_consultarGlobal == 'Dessert'">
+				<prompt>
+					Galician milk cake.
+					
+				</prompt>
+			</if>
+		<else/>
+			<prompt>
+				Sorry, the dining room of <value expr="session.facultadGlobal"/> is closed on saturday
+			</prompt>
+		</if>
+	</if>
+	<if cond="(session.diaGlobal == 'domingo')">
+		<prompt>
+			Sorry, the dining room is closed on sunday
+		</prompt>
+	</if>
+
+</block>
+
+</form>
+</vxml>

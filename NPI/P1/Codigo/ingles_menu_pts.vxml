@@ -1,0 +1,160 @@
+<vxml version="2.1" xml:lang="en-US" application="main.vxml">
+
+<form id="menu">
+
+<block>
+	<if cond="(session.diaGlobal == 'monday')">
+		<if cond="session.a_consultarGlobal == 'complete' || session.a_consultarGlobal  == 'complete menu'">
+			<prompt>
+				Spaghetti carbonara with cod and bacon / Garden noodles.
+				Shrimp salad with cocktail sauce / Asparagus with mayonnaise.
+				Apple.
+
+			</prompt>
+		</if>
+		<if cond="session.a_consultarGlobal == 'first'">
+			<prompt>
+				Spaghetti carbonara with cod and bacon / Garden noodles.
+
+			</prompt>
+		</if>
+		<if cond="session.a_consultarGlobal == 'second'">
+			<prompt>
+				Shrimp salad with cocktail sauce / Asparagus with mayonnaise.
+
+			</prompt>
+		</if>
+		<if cond="session.a_consultarGlobal == 'Dessert'">
+			<prompt>
+				Apple.
+
+			</prompt>
+		</if>
+	</if>
+	<if cond="(session.diaGlobal == 'tuesday')">
+		<if cond="session.a_consultarGlobal == 'complete' || session.a_consultarGlobal == 'complete menu'">
+			<prompt>
+				Mixed salad.
+				Pork stew / Stewed pumpkin with vegetables.
+				Apple.
+
+			</prompt>
+		</if>
+		<if cond="session.a_consultarGlobal == 'first'">
+			<prompt>
+				Mixed salad.
+
+			</prompt>
+		</if>
+		<if cond="session.a_consultarGlobal == 'second'">
+			<prompt>
+				Pork stew / Stewed pumpkin with vegetables.
+
+			</prompt>
+		</if>
+		<if cond="session.a_consultarGlobal == 'Dessert'">
+			<prompt>
+				Apple.
+
+			</prompt>
+		</if>
+	</if>
+	<if cond="(session.diaGlobal == 'wednesday')">
+		<if cond="session.a_consultarGlobal == 'complete' || session.a_consultarGlobal == 'complete menu'">
+			<prompt>
+				Stewed broad beans / Aloo Tikki.
+				Hake in mozarabic sauce / Broad beans in colorado.
+				Pear.
+
+			</prompt>
+		</if>
+		<if cond="session.a_consultarGlobal == 'first'">
+			<prompt>
+				Stewed broad beans / Aloo Tikki.
+
+			</prompt>
+		</if>
+		<if cond="session.a_consultarGlobal == 'second'">
+			<prompt>
+				Hake in mozarabic sauce / Broad beans in colorado.
+
+			</prompt>
+		</if>
+		<if cond="session.a_consultarGlobal == 'Dessert'">
+			<prompt>
+				Pear.
+
+			</prompt>
+		</if>
+	</if>
+	<if cond="(session.diaGlobal == 'thursday')">
+		<if cond="session.a_consultarGlobal == 'complete' || session.a_consultarGlobal == 'complete menu'">
+			<prompt>
+				Vegetables cream.
+				Grilled Pork Steak / Chef Style Veggie Burgers.
+				Plums.
+
+			</prompt>
+		</if>
+		<if cond="session.a_consultarGlobal == 'first'">
+			<prompt>
+				Vegetables cream.
+
+			</prompt>
+		</if>
+		<if cond="session.a_consultarGlobal == 'second'">
+			<prompt>
+				Grilled Pork Steak / Chef Style Veggie Burgers.
+
+			</prompt>
+		</if>
+		<if cond="session.a_consultarGlobal == 'Dessert'">
+			<prompt>
+				Plums.
+
+			</prompt>
+		</if>
+	</if>
+	<if cond="(session.diaGlobal == 'friday')">
+		<if cond="session.a_consultarGlobal == 'complete' || session.a_consultarGlobal == 'complete menu'">
+			<prompt>
+				Norman soup.
+				Pumpkin pie.
+				Peach and coconut flan.
+
+			</prompt>
+		</if>
+		<if cond="session.a_consultarGlobal == 'first'">
+			<prompt>
+				Norman soup.
+
+			</prompt>
+		</if>
+		<if cond="session.a_consultarGlobal == 'second'">
+			<prompt>
+				Pumpkin pie.
+
+			</prompt>
+		</if>
+		<if cond="session.a_consultarGlobal == 'Dessert'">
+			<prompt>
+				Peach and coconut flan.
+				
+			</prompt>
+		</if>
+	</if>
+	<if cond="(session.diaGlobal == 'saturday')">
+		<prompt>
+			Sorry, the dining room is closed on saturday
+		</prompt>
+	</if>
+	<if cond="(session.diaGlobal == 'sunday')">
+		<prompt>
+			Sorry, the dining room is closed on sunday
+		</prompt>
+	</if>
+
+</block>
+
+</form>
+</vxml>

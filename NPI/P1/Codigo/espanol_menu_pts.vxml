@@ -1,0 +1,159 @@
+<vxml version="2.1" xml:lang="es-ES" application="main.vxml">
+
+<form id="menu">
+
+<block>
+	<if cond="(session.diaGlobal == 'lunes')">
+		<if cond="session.a_consultarGlobal == 'completo' || session.a_consultarGlobal  == 'menu completo'">
+			<prompt>
+				Espaguetis a la carbonara con bacalao y beicon / Tallarines a la hortelana.
+				Salpicón de gambas con salsa cóctel / Espárragos con mahonesa.
+				Manzana.
+
+			</prompt>
+		</if>
+		<if cond="session.a_consultarGlobal == 'primer plato'">
+			<prompt>
+				Espaguetis a la carbonara con bacalao y beicon / Tallarines a la hortelana.
+
+			</prompt>
+		</if>
+		<if cond="session.a_consultarGlobal == 'segundo plato'">
+			<prompt>
+				Salpicón de gambas con salsa cóctel / Espárragos con mahonesa.
+
+			</prompt>
+		</if>
+		<if cond="session.a_consultarGlobal == 'postre'">
+			<prompt>
+				Manzana.
+
+			</prompt>
+		</if>
+	</if>
+	<if cond="(session.diaGlobal == 'martes')">
+		<if cond="session.a_consultarGlobal == 'completo' || session.a_consultarGlobal == 'menu completo'">
+			<prompt>
+				Ensalada mixta.
+				Caldereta de cerdo / Calabaza estofada con hortalizas.
+				Manzana.
+
+			</prompt>
+		</if>
+		<if cond="session.a_consultarGlobal == 'primer plato'">
+			<prompt>
+				Ensalada mixta.
+
+			</prompt>
+		</if>
+		<if cond="session.a_consultarGlobal == 'segundo plato'">
+			<prompt>
+				Caldereta de cerdo / Calabaza estofada con hortalizas.
+
+			</prompt>
+		</if>
+		<if cond="session.a_consultarGlobal == 'postre'">
+			<prompt>
+				Manzana.
+
+			</prompt>
+		</if>
+	</if>
+	<if cond="(session.diaGlobal == 'miercoles')">
+		<if cond="session.a_consultarGlobal == 'completo' || session.a_consultarGlobal == 'menu completo'">
+			<prompt>
+				Habitas estofadas / Aloo Tikki.
+				Merluza en salsa mozárabe / Habas en colorado.
+				Pera.
+
+			</prompt>
+		</if>
+		<if cond="session.a_consultarGlobal == 'primer plato'">
+			<prompt>
+				Habitas estofadas / Aloo Tikki.
+
+			</prompt>
+		</if>
+		<if cond="session.a_consultarGlobal == 'segundo plato'">
+			<prompt>
+				Merluza en salsa mozárabe / Habas en colorado.
+
+			</prompt>
+		</if>
+		<if cond="session.a_consultarGlobal == 'postre'">
+			<prompt>
+				Pera.
+
+			</prompt>
+		</if>
+	</if>
+	<if cond="(session.diaGlobal == 'jueves')">
+		<if cond="session.a_consultarGlobal == 'completo' || session.a_consultarGlobal == 'menu completo'">
+			<prompt>
+				Crema de verduras.
+				Filete de cerdo a la parrilla / Hamburguesas vegetales al estilo del chef.
+				Ciruelas.
+
+			</prompt>
+		</if>
+		<if cond="session.a_consultarGlobal == 'primer plato'">
+			<prompt>
+				Crema de verduras.
+
+			</prompt>
+		</if>
+		<if cond="session.a_consultarGlobal == 'segundo plato'">
+			<prompt>
+				Filete de cerdo a la parrilla / Hamburguesas vegetales al estilo del chef.
+
+			</prompt>
+		</if>
+		<if cond="session.a_consultarGlobal == 'postre'">
+			<prompt>
+				Ciruelas.
+
+			</prompt>
+		</if>
+	</if>
+	<if cond="(session.diaGlobal == 'viernes')">
+		<if cond="session.a_consultarGlobal == 'completo' || session.a_consultarGlobal == 'menu completo'">
+			<prompt>
+				Sopa normanda.
+				Pisto de calabaza.
+				Flan de melocotón y coco.
+
+			</prompt>
+		</if>
+		<if cond="session.a_consultarGlobal == 'primer plato'">
+			<prompt>
+				Sopa normanda.
+			
+			</prompt>
+		</if>
+		<if cond="session.a_consultarGlobal == 'segundo plato'">
+			<prompt>
+				Pisto de calabaza.
+
+			</prompt>
+		</if>
+		<if cond="session.a_consultarGlobal == 'postre'">
+			<prompt>
+				Flan de melocotón y coco.
+			</prompt>
+		</if>
+	</if>
+	<if cond="(session.diaGlobal == 'sabado')">
+		<prompt>
+			Lo sentimos, el sabado los comedores están cerrados
+		</prompt>
+	</if>
+	<if cond="(session.diaGlobal == 'domingo')">
+		<prompt>
+			Lo sentimos, el domingo los comedores están cerrados
+		</prompt>
+	</if>
+
+</block>
+
+</form>
+</vxml>

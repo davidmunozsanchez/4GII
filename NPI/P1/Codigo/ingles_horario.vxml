@@ -1,0 +1,18 @@
+<vxml version="2.1" xml:lang="en-US" application="main.vxml">
+
+<form id="schedule">
+
+<block>
+	<if cond="(session.diaGlobal != 'sunday' &amp;&amp; session.diaGlobal != 'saturday') || (session.diaGlobal == 'saturday' &amp;&amp; session.facultadGlobal == 'Fuentenueva')">
+		<prompt>
+			Hours are from 1:30 to 3:30
+		</prompt>
+	<else/>
+		<prompt>
+			Sorry, the dining room is closed
+		</prompt>
+	</if>
+</block>
+
+</form>
+</vxml>

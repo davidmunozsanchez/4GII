@@ -1,0 +1,187 @@
+<vxml version="2.1" xml:lang="es-ES" application="main.vxml">
+
+<form id="menu">
+
+<block>
+	<if cond="(session.diaGlobal == 'lunes')">
+		<if cond="session.a_consultarGlobal == 'completo' || session.a_consultarGlobal  == 'menu completo'">
+			<prompt>
+				Arroz a la cubana.
+				Merluza en salsa mozárabe.
+				Manzana.
+
+			</prompt>
+		</if>
+		<if cond="session.a_consultarGlobal == 'primer plato'">
+			<prompt>
+				Arroz a la cubana.
+			</prompt>
+		</if>
+		<if cond="session.a_consultarGlobal == 'segundo plato'">
+			<prompt>
+				Merluza en salsa mozárabe.
+
+			</prompt>
+		</if>
+		<if cond="session.a_consultarGlobal == 'postre'">
+			<prompt>
+				Manzana.
+			</prompt>
+		</if>
+	</if>
+	<if cond="(session.diaGlobal == 'martes')">
+		<if cond="session.a_consultarGlobal == 'completo' || session.a_consultarGlobal == 'menu completo'">
+			<prompt>
+				Pizza jamón cocido y queso / Pizza de queso.
+				Filete de cerdo a la parrilla.
+				Ciruelas.
+
+			</prompt>
+		</if>
+		<if cond="session.a_consultarGlobal == 'primer plato'">
+			<prompt>
+				Pizza jamón cocido y queso / Pizza de queso.
+
+			</prompt>
+		</if>
+		<if cond="session.a_consultarGlobal == 'segundo plato'">
+			<prompt>
+				Filete de cerdo a la parrilla.
+
+			</prompt>
+		</if>
+		<if cond="session.a_consultarGlobal == 'postre'">
+			<prompt>
+				Ciruelas.
+
+			</prompt>
+		</if>
+	</if>
+	<if cond="(session.diaGlobal == 'miercoles')">
+		<if cond="session.a_consultarGlobal == 'completo' || session.a_consultarGlobal == 'menu completo'">
+			<prompt>
+				Ensalada mixta.
+				Tortilla de queso, patatas y beicon / Totilla Florentina.
+				Ciruelas.
+
+			</prompt>
+		</if>
+		<if cond="session.a_consultarGlobal == 'primer plato'">
+			<prompt>
+				Ensalada mixta.
+
+			</prompt>
+		</if>
+		<if cond="session.a_consultarGlobal == 'segundo plato'">
+			<prompt>
+				Tortilla de queso, patatas y beicon / Tortilla Florentina.
+
+			</prompt>
+		</if>
+		<if cond="session.a_consultarGlobal == 'postre'">
+			<prompt>
+				Ciruelas.
+
+			</prompt>
+		</if>
+	</if>
+	<if cond="(session.diaGlobal == 'jueves')">
+		<if cond="session.a_consultarGlobal == 'completo' || session.a_consultarGlobal == 'menu completo'">
+			<prompt>
+				Sopa minestrone a la milanesa / Potaje de hortalizas al azafrán con lenguas de pájaro.
+				Plato alpujarreño / Huevo frito con patatas española.
+				Flan de melocotón y coco.
+
+			</prompt>
+		</if>
+		<if cond="session.a_consultarGlobal == 'primer plato'">
+			<prompt>
+				Sopa minestrone a la milanesa / Potaje de hortalizas al azafrán con lenguas de pájaro.
+
+			</prompt>
+		</if>
+		<if cond="session.a_consultarGlobal == 'segundo plato'">
+			<prompt>
+				Plato alpujarreño / Huevo frito con patatas española.
+
+			</prompt>
+		</if>
+		<if cond="session.a_consultarGlobal == 'postre'">
+			<prompt>
+				Flan de melocotón y coco.
+
+			</prompt>
+		</if>
+	</if>
+	<if cond="(session.diaGlobal == 'viernes')">
+		<if cond="session.a_consultarGlobal == 'completo' || session.a_consultarGlobal == 'menu completo'">
+			<prompt>
+				Espaguetis con salsa sanfaina con atún y anchoas / Espaguetis sobre espinacas y crema de queso.
+				Pechuga de pollo Montecristo / Koftas de espinacas.
+				Uvas.
+
+			</prompt>
+		</if>
+		<if cond="session.a_consultarGlobal == 'primer plato'">
+			<prompt>
+				Espaguetis con salsa sanfaina con atún y anchoas / Espaguetis sobre espinacas y crema de queso.
+
+			</prompt>
+		</if>
+		<if cond="session.a_consultarGlobal == 'segundo plato'">
+			<prompt>
+				Pechuga de pollo Montecristo / Koftas de espinacas.
+
+			</prompt>
+		</if>
+		<if cond="session.a_consultarGlobal == 'postre'">
+			<prompt>
+				Uvas.
+
+			</prompt>
+		</if>
+	</if>
+	<if cond="(session.diaGlobal == 'sabado')">
+		<if cond="(session.facultadGlobal == 'Fuentenueva')">
+			<if cond="session.a_consultarGlobal == 'completo' || session.a_consultarGlobal == 'menu completo'">
+				<prompt>
+					Paninis / Paninis vegetarianos.
+					Cazón en adobo / Alcachofas a la miel.
+					Escalibada / Calabacín a la parrilla.
+					Pastel de leche gallego.
+
+				</prompt>
+			</if>
+			<if cond="session.a_consultarGlobal == 'primer plato'">
+				<prompt>
+					Paninis / Paninis vegetarianos.
+				</prompt>
+			</if>
+			<if cond="session.a_consultarGlobal == 'segundo plato'">
+				<prompt>
+					Cazón en adobo / ALcachofas a la miel.
+					Escalibada / Calabacín a la parrilla.
+
+				</prompt>
+			</if>
+			<if cond="session.a_consultarGlobal == 'postre'">
+				<prompt>
+					Pastel de leche gallego.
+				</prompt>
+			</if>
+		<else/>
+			<prompt>
+			Lo sentimos, el sabado el comedor de <value expr="session.facultadGlobal"/> esta cerrado.
+			</prompt>
+		</if>
+	</if>
+	<if cond="(session.diaGlobal == 'domingo')">
+		<prompt>
+			Lo sentimos, el domingo los comedores están cerrados
+		</prompt>
+	</if>
+
+</block>
+
+</form>
+</vxml>

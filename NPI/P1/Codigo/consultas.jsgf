@@ -1,0 +1,25 @@
+#JSGF V1.0;
+
+grammar consultas;
+
+public <consultas> = [<deseo>] [<verbo>] [<articulo> <a_consultar> {this.a_consultarDecidido=$a_consultar} {this.consultaDecidida="menu"} ] [<preconsulta>] [<articulo> <consulta> {this.consultaDecidida=$consulta} ] [<predia> <dia> {this.diaDecidido=$dia} ] [<prelugar> <facultad> {this.facultadDecidida=$facultad} ];
+
+<verbo> = saber | conocer | que me dijeras | que me indicaras | que me indicases | consultar;
+
+<articulo> = el | la;
+
+<predia> = de | del | de la;
+
+<prelugar> = en | en el | en la;
+
+<preconsulta> = en | en el;
+
+<facultad> = Aynadamar | Fuentenueva | Peteese | Cartuja;
+
+<consulta> = horario | menu;
+
+<deseo> = quiero | me gustaria | [yo] queria | [yo] necesito | [yo] tengo que;
+
+<dia> = lunes | martes | miercoles | jueves | viernes | sabado | domingo | ayer | hoy | mañana | manana | pasado | pasado mañana | pasado manana;
+
+<a_consultar> = [menu]completo| primer plato | segundo plato | postre;

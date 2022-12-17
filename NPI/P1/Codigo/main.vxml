@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vxml version="2.1">
+    <var name="facultadGlobal"/>
+    <var name="diaGlobal"/>
+    <var name="a_consultarGlobal"/>
+
+    <form id="init">
+        <block>
+            <prompt xml:lang="es-es" bargein="false">
+                Bienvenido al servicio de asistente de voz para los comedores U G R !
+            </prompt>
+            
+            <prompt xml:lang="en-us" bargein="false">
+                Welcome to the voice service for the app of the U G R  dinning room!
+            </prompt>
+            <goto next="#getLanguage"/>
+        </block>
+    </form>
+
+    <form id="getLanguage">
+        <field name="language">
+            <prompt xml:lang="es-es" timeout="15s">
+                Para idioma Español, diga o pulse 1.
+            </prompt>
+            <prompt xml:lang="en-us" timeout="15s">
+                For English language, say or press 2.
+            </prompt>
+            <option value="1" dtmf="1">1</option>
+            <option value="2" dtmf="2">2</option>
+            <filled>
+                <if cond="language=='1'">
+                    <goto next="./espanol_main.vxml"/>
+                <elseif cond="language=='2'"/>
+                    <goto next="./ingles_main.vxml"/>
+                </if>
+            </filled>
+        </field>
+    </form>
+
+</vxml>
