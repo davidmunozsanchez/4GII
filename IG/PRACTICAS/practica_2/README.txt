@@ -1,0 +1,6 @@
+En cuanto a los objetivos que se pedían en la práctica:
+- Se ha implementado la estructura de clases para leer un archivo PLY y guardar las caras y los vértices.
+- Se ha creado el código para las tapas de los objetos por revolución: el tipo 0 corresponde al cilindro (y a cualquier caso general), el tipo 1 al cono y el tipo 2 a la esfera. Se ha implementado también la posibilidad de elegir que tapa se quiere construir, asignando un valor de 0 ó 1 al los parámetros tapa_su y tapa_inf.
+- Se han creado tres clases para obtener un cono, un cilindro y una esfera. Para visualizarlas se han asignado las teclas V, B, N, respectivamente.
+- Se ha modificado el main del programa para leer también un fichero que se llamará perfil.ply y a partir del cual se construirá un objeto por revolución según el perfil introducido. A esta función se le ha asignado la tecla M. Primero se crea un objeto ply y posteriormente se aplica una rotación, dado que lo que se nos da en el archivo ply es un perfil.
+- Los colores para el modo sólido colores han sido tratados de diferente forma a lo hecho en clase. Se usa una forma bastante más general que permite poner cualquier número de colores sin importar que tenga que ser igual al número de caras, puede ser mayor o menor.
