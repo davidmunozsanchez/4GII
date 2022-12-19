@@ -1,0 +1,40 @@
+Robert
+{
+    begin_var
+        int num, n, f;
+    end_var
+
+    int fibonacci(int n){
+        begin_var
+            int a,b;
+        end_var
+
+        if(n>2) then{
+            a = fibonacci(n-1);
+            b = fibonacci(n-2);
+            return a+b;
+        }
+
+        if(n == 2) then return 1;
+        if(n==1) then return 1;
+        if(n==0) then return 0;
+    }
+
+    sacar<-"Qillo dame un numero--->: ";
+    meter->n;
+
+    
+    for num = 0 to n do {
+        f = fibonacci(num);
+        sacar<-f;
+    }
+
+    sacar<-"\n";
+
+    for num = 0 to n do {
+        f = fibonacci(num);
+        f = f*2;
+        sacar<-f;
+    }
+    
+}

@@ -1,0 +1,31 @@
+Robert
+{
+    begin_var
+        int n, curr;
+    end_var
+
+    int incrementar(int a)
+    {
+        return a+1;
+    }
+
+    sacar<-"Introduce un número";
+    meter->n;
+    sacar<-n," == ";
+    curr = 2;
+    while(curr <= n){
+        begin_var
+            int d;
+        end_var
+        d = n/curr;
+
+        if( d*curr == n )then{
+            sacar<-curr," ";
+            n = n/curr;
+        }else{
+            curr = incrementar(curr);
+        }
+    }
+    sacar<-"\n";
+
+}
