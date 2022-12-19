@@ -1,0 +1,72 @@
+int Robert()
+{
+    beg····in_var
+        int ve ;
+        float vf ;
+        char vc ;
+        bool vl ;
+        list of int pe, pe2 ;
+        lis····t of float pf, pf2 ;
+        list of char pc, pc2 ;
+        list of bool pl ;
+    end_var
+
+int funcionA (int a1, float a2, char a3)
+{
+
+    int x1, x2 ;
+
+    char funcionB (char b1, bool b2)
+    {
+	if(!b1){
+		b2 = false;
+	}        
+        float xf, x2 ;
+
+        float funcionC (bool c1, int c2)
+        {
+
+            float x1 ;
+
+            x1= 1.3 ;
+            if (c2>10) then
+                c2= c2-1 ;
+            else
+                x1= 3.1 ;
+            return x1 ;
+        }
+        xf= functionC (true, 10);
+        x2= xf*(funcionC(false,1)-funcionC(true,23))/10.0;
+        while (x2*funcionC(false,1)-xf<10.0) 
+            x2= x2*xf ;
+}
+float funcionD (float d1)
+{
+    char dato ;
+    int valor ;
+
+    char funcionE (char e1, char e2)
+    {
+        meter <- "introduzca dos caracteres: ", e1, e2 ;
+        if (e1=='a') then
+            return e1 ;
+        else
+            return ' ';
+}
+    sacar<- "introduzca un valor entero: ", valor ;
+    if (d1>0.0) then
+    {
+
+        int dato ;
+
+        dato= 2 ;
+        dato= valor*20/dato ;
+    }
+    else {
+        valor= valor * 100 ;
+        d1= d1/1000.0 ;
+    }
+    return d1 ;
+}
+
+}
