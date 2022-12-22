@@ -15,6 +15,11 @@ plane { <0.0, 1.0, 0.0>, 0
         finish {ambient 0.1}
 }
 
+plane { <0.0, 0.0, 1.0>, 100
+        pigment {checker colour Red colour Green scale 6}
+        finish {ambient 0.1}
+}
+
 sphere {<60, 15, 20>, 15
         pigment {colour rgb <0.2, 0.4, 0.7>}
         finish {ambient 0.1 diffuse 0.6 phong 0.8 phong_size 10}
