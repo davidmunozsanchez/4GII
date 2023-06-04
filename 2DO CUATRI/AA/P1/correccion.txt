@@ -1,0 +1,56 @@
+EJERCICIO 1 (6.5 puntos de 6.5):
+
+Apartado 1. 1.5 puntos (de 1.5)
+
+- Implementación de GD correcta. Se valora positivamente toda la información aportada sobre el trabajo realizado y los conceptos empleados. Por ejemplo, todos los párrafos en donde se presenta, valora y contextualiza GD se valoran, como decía, muy positivamente. 
+
+- Trabajo realizado con GD normalizado también correcto. 
+
+
+Apartado 2. 2 puntos (de 2)
+
+- Hubiese sido positivo ampliar el espacio visible en la gráfica 3D correspondiente al learning rate 0.1 para que no apareciesen puntos "flotando" fuera de la función. Con algo como display_figure(3, E, ws, [90,90], 'jet','') debería haberse resuelto el problema. 
+
+
+Apartado 3. 2 puntos (de 2)
+
+- Todo correcto. 
+
+
+Apartado 4. 1 punto (de 1)
+
+- La entrega, en términos globales, es muy completa. De las mejores de la clase. El alumno no menciona que si la función es convexa (y óptimo local y global coinciden) la elección del punto inicial deja de ser tan crítica. Del mismo modo, hubiese sido positivo recordar el requisito de disponer de una función diferenciable para poder aplicar el algoritmo de GD. 
+
+
+-------------------
+
+
+EJERCICIO 2 (5.5 puntos de 5.5):
+
+
+Apartado 1. Dígitos manuscritos. (2.5 puntos de 2.5)
+
+Todo correcto. 
+
+
+Apartado 2. Datos sintéticos y características transformadas. (3 puntos de 3)
+
+Se da por bueno todo el ejercicio para valorar todo el trabajo desarrollado por el alumno, suficientemente claro, correcto y completo. No obstante, se da el siguiente feedback (que no penaliza la entrega):
+
+- ninguna figura tiene título (lo mismo pasaba en el apartado anterior), lo que dificulta saber, de un vistazo, lo que se está visualizando. 
+
+- no queda claro si se muestra algún ajuste sobre los datos de test, lo cual hubiese sido también positivo y razonable. 
+
+
+----------------------
+
+
+BONUS (2 puntos de 2):
+
+De nuevo, se da toda la puntuación para valorar el buen trabajo realizado por el estudiante, que no escatima en explicaciones y análisis de los resultados obtenidos. Todo lo desarrollado es suficientemente completo, claro, y correcto. Se le da la enhorabuena al estudiante. De las mejores entregas de clase. 
+
+Como feedback para el alumno: 
+
+- hubiese sido positivo mostrar explícitamente, en formato matemático, la regla de actualización de pesos del método de Newton;
+
+- se podría haber profundizado un poco más en el apartado final, en donde Newton converge en una única iteración. Newton converge en un solo paso debido a la naturaleza cuadrática de la función a optimizar. Si incluimos un learning rate estaremos limitando la capacidad de avance de Newton, pero si lo quitamos, como vemos, llegamos en un solo salto. La explicación teórica de que esto ocurra es sencilla. Por ejemplo, si tenemos  f(x)=c(x−a)^2+b. Sabemos que f′(x)=2c(x−a) y que f′′(x)=2c. Si sustituimos estos valores en la fórmula de Newton: x1=x0−2c(x_0−a)/2c=x_0−(x_0−a)=a
