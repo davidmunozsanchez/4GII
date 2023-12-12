@@ -1,0 +1,5 @@
+#JSGF V1.0;
+
+grammar facultades;
+
+public <facultades> = Aynadamar | Fuentenueva | P T S | Cartuja;

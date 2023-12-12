@@ -1,0 +1,5 @@
+#JSGF V1.0;
+
+grammar consulta;
+
+public <consulta> = [ horario | menu ]

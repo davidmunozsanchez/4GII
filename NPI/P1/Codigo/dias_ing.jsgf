@@ -1,6 +1,0 @@
-#JSGF V1.0;
-
-grammar dias;
-
-public <dias> = [on] Monday | [on] Tuesday | [on] Wednesday | [on] Thursday | [on] Friday | [on] Saturday | [on] Sunday | today | yesterday | tomorrow | day after tomorrow | before yesterday ;
-

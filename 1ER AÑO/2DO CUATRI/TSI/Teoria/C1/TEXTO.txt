@@ -1,0 +1,638 @@
+﻿
+
+Cuestionario-1: Revisión del inte X +
+>
+D
+Х
+https://pradogrado2223.ugr.es/mod/quiz/review.php?attempt=350189&cmid=229109
+80%
+D
+ABP
+=
+Importar marcadores...
+=
+UNIVERSIDAD
+Mis cursos▾ Ir a... ▾
+DE GRANADA
+Ayuda Español - Internacional (es) ▾
+w Apuntes de la asignat... EL PLAN - DEPORTES /... → Comenzar a usar Firefox ✡ Most Visited Fedora Docs FM Fedora Magazine ► (3828) Adivina el Ani... do GRADO 22-23
+Fedora Project User Communities
+>>
+Otros marcadores
+MUÑOZ SANCHEZ, DAVID
+Comentario:
+Pregunta 2
+Finalizado
+Describa con precisión el contenido y la función de cada uno de los elementos de un problema de aprendizaje X,Y,ƒ para los tres ejemplos dados. Diga que problema de aprendizaje representa cada uno de ellos, Justifique su razonamiento con precisión.
+Se puntúa 1,00 sobre 1,00
+a) Asignar animales a su clase o especie a partir de fotos.
+Desmarcar
+b) Establecer un diagnostico de presencia caries a partir de radiografías bucales.
+c) Establecer perfiles de clientes, en una empresa, a partir de su datos de compra.
+a) No se trata de un problema de aprendizaje. Las características que definen que un cierto animal sea de una especie u otra o de una clase u otra están bien definidas y no todas se encuentran en la información que podría proporcionar, por ejemplo, una foto.
+b) Esta situación es un problema claro de aprendizaje supervisado, más concretamente, se trata de una clasificación binaria. La X será un conjunto de vectores de características (1, 2,...,xn) que se puede obtener a partir de la información que una imagen (en este caso una radiografía bucal) aporta. Tales características podrían ser la intensidad de algún color, la posición de la imagen, etc. La Y será una etiqueta -1 que indica la no presencia de caries y de +1, que indica la presencia de caries. La función objetivo que desconocemos asigna a cada elemento de X un valor en Y.
+c) En este caso se trata de un problema de aprendizaje no supervisado, ya que los datos que obtenemos de los clientes no están etiquetados. Más concretamente nos interesa aplicar la técnica de "clustering", para agrupar los distintos perfiles de compras en grupos. Aquí simplemente se cuenta con un conjunto X de datos igual que en el ejercicio b). En este caso, no están etiquetados.
+a) No es un problema de aprendizaje. La clase o especie de un animal no está definida por sus caracteristicas de apariencia en un foto. No se puede resolver por aprendizaje. La función f no existe. b) Problema de clasificación supervisada,. X es la radiografia, Y=[+1,-1] y f la función que mapea cada X en Y.
+c) Es un problema de aprendizaje, principalmente no-supervisado ya que no hay etiquetas. Los datos X={tikets de compra} se pueden agrupar en perfiles usando algoritmos de agrupamiento. No hay Y.
+Comentario:
+Determinar el "punto de ruptura" de la clase de funciones que etiqueta la recta real a partir de subconjuntos de la recta real formada por la unión de k intervalos finitos. Es decir, para cada k intervalos
+16:32
+Buscar
+31°C Soleado
+(4)
+25/04/2023
+11
+Pregunta 3
+
+
+
+
+﻿
+
+Cuestionario-1: Revisión del inteX +
+>
+D
+Fedora Project User Communities
+https://pradogrado2223.ugr.es/mod/quiz/review.php?attempt=350189&cmid=229109
+目☆
+Importar marcadores...
+w Apuntes de la asignat...
+EL PLAN - DEPORTES/... Comenzar a usar Firefox Most Visited Fedora Docs FM Fedora Magazine ► (3828) Adivina el Ani...
+III
+UNIVERSIDAD DE GRANADA
+Prado GRADO 22-23
+Mis cursos ▾ Ir a... ▾
+▼
+Ayuda Español - Internacional (es) ▾
+Pregunta 1
+Finalizado
+Se puntúa 1,00 sobre 1,00
+Desmarcar
+Cuando calculamos la solución PAC de un problema de aprendizaje ¿es posible encontrar situaciones en las que se puede decir: "hemos fallado en encontrar una solución" ?.
+b) En caso afirmativo, decir cuando se produce dicho evento, bajo que cirscunstancias se produce y como sabemos que hemos fallado.
+c) En caso negativo, justificar por que no cabe decir esa expresión.
+Justificar con argumentos técnicos
+En el caso de problemas de aprendizaje donde Ein no sea aproximadamente 0, no se puede asegurar nada con la solución PAC. Es más, se puede decir que hemos fallado en encontrar una solución por que nuestro conjunto de hipótesis no es capaz de minimizar el error Ein-
+Buscar
+Si se puede dar la situación de fallo. Cuando el Error de ajuste Ein sea grande. Esto dependerá de la clase de funciones elegida. La desigualdad P|Eout
+Ein > e(N, dvc)] ≤ 8(N, dvc) nos sirve para analizar cuando se produce. Los valores de las constantes & y d dependen del tamaño muestral y de la clase de funciones.
+El objetivo es dar una solución con la que haya alguna posibilidad de que el error fuera de la muestra sea cero o este tan cerca de cero como lo permita la muestra N. Para ello, y de acuerdo a la expresión anterior, debe verificarse que Ein≈0, en caso contrario el error Eout no será pequeño en función de e(N, dvc). En consecuencia si no logramos realizar un ajuste que verifique Ein ≈ 0 para una clase de funciones de baja complejidad diremos que hemos fallado con dicha calse de funciones.
+Comentario:
+Εί
+D
+ABP
+Х
+» Otros marcadores
+MUÑOZ SANCHEZ, DAVID
+Finalizar revisión
+31°C Soleado
+(())
+16:32
+25/04/2023 11
+
+
+
+﻿
+
+Cuestionario-1: Revisión del inte X +
+Importar marcadores...
+=
+>
+D
+Х
+https://pradogrado2223.ugr.es/mod/quiz/review.php?attempt=350189&cmid=229109
+80%
+D
+ABP
+=
+Mis cursos▾
+Ir a... ▾
+w Apuntes de la asignat... EL PLAN - DEPORTES /... → Comenzar a usar Firefox ✡ Most Visited Fedora Docs FM Fedora Magazine ► (3828) Adivina el Ani... Prado GRADO 22-23 Ayuda Español - Internacional (es) ▾
+Fedora Project User Communities
+>>
+Otros marcadores
+MUÑOZ SANCHEZ, DAVID
+Comentario:
+UNIVERSIDAD
+DE GRANADA
+Pregunta 3
+Finalizado
+Se puntúa 1,00 sobre 1,00
+Desmarcar
+Determinar el "punto de ruptura" de la clase de funciones que etiqueta la recta real a partir de subconjuntos de la recta real formada por la unión de k intervalos finitos. Es decir, para cada k intervalos finitos fijados, un punto dentro de su unión tiene una etiqueta distinta a un punto fuera de dicho subconjunto..
+Para determinar el punto de ruptura, lo primero que hay que tener en cuenta es que, el punto de ruptura k es el tamaño N de la muestra para el cual no se pueden explicar todas sus dicotomías con el conjunto de hipótesis seleccionado.
+En adelante, la k que aparece en el enunciado del problema pasará a ser z, con fin de no confundirla con la k del punto de ruptura. kenunciado = Z.
+Pregunta 4
+Finalizado
+Se puntúa 0,00
+En el caso de N = 1y z = 1, se puede determinar que se puede etiquetar 2 dicotomías, que son las máximas.
+Para N = 2y z = 1, se pueden etiquetar 4 dicotomías, que son las máximas.
+Para N = 3 y z = 1, no se pueden etiquetar las 8 dicotomías posibles, por lo que 3 es un punto de ruptura. Para z = 1 el punto de ruptura es 3.
+Si se procede igual, para z = 2, se puede determinar que el punto de ruptura es 5, para z = 3, es 7, lo cual hace pensar que el punto de ruptura de la clase de funciones es 2z + 1, que términos del enunciado, es 2k+1.
+Consideremos el caso que representa la situación más general de puntos etiquetados en una recta, es decir un modelo alternado de etiquetas,.....X,,X,,X,,X.,.....
+Si analizamos el caso k=1 vemos que el punto de ruptura es 3 ya que solo podemos separar dos particiones, los casos (xo, o x). k=2 el punto de ruptura es 5 (oxoxo, xoxox). k=3 el punto de ruptura es 7, etc. Entonces por inducción 2k+1
+Comentario:
+Considere el problema de aprendizaje estadistico por inducción de clasificación binaria y diga: ¿Tiene sentido buscar el mejor clasificador posible?
+a) En caso negativo, diga por qué y cuales serían las alternativas de actuación.
+Buscar
+31°C Soleado
+(64))
+16:33 25/04/2023
+11
+
+﻿
+
+Cuestionario-1: Revisión del inte X +
+>
+D
+Х
+D
+ABP
+=
+>>
+Otros marcadores
+MUÑOZ SANCHEZ, DAVID
+Importar marcadores...
+=
+UNIVERSIDAD
+DE GRANADA
+https://pradogrado2223.ugr.es/mod/quiz/review.php?attempt=350189&cmid=229109
+80%
+w Apuntes de la asignat... EL PLAN - DEPORTES /... → Comenzar a usar Firefox ✡ Most Visited Fedora Docs FM Fedora Magazine ► (3828) Adivina el Ani... Mis cursos▾ Ir a... ▾ Ayuda Español - Internacional (es) ▾
+GRADO 22-23
+Fedora Project User Communities
+Pregunta 4 Finalizado
+Se puntúa 0,00 sobre 1,00
+Desmarcar
+Considere el problema de aprendizaje estadistico por inducción de clasificación binaria y diga: ¿Tiene sentido buscar el mejor clasificador posible?
+a) En caso negativo, diga por qué y cuales serían las alternativas de actuación.
+b) En caso postivo argumente los resultados que lo avalan.
+Sí, puesto que los clasificadores cuentan con due finito y podemos asegurar un cierto error de generalización según el conjunto de entrenamiento usado.
+El teorema de Non-Free Lunch nos dice que que todos los clasificadores son equivalentes en media sobre todas las posibles distribuciones, por lo que no tiene sentido buscar el mejor clasificador definido sobre todas las posibles funciones en [0,1].
+Las alternativas que nos deja este resultado es restringuir la clases de funciones con la que podamos aprender. Para ello se introducen restricciones o sesgo inductivo sobre la clase de funciones, lo que nos permite encontrar soluciones PAC sobre ellas. La dimension de VC finita es la condición/restricción más general enocntrada hasta la fecha,
+Comentario:
+Argumentación incorrecta. No se identifica el problema
+N
+E(w) asociada al promedio
+Pregunta 5
+Finalizado
+Se puntúa 0,00 sobre 1,00
+Marcar pregunta
+Considere la función de error definida para una muestra (x, y) por E(w) = (max(0,1 – ywx))2, donde x y w son vectores de igual dimensión fija e y € {−1,1}, a) Deducir la regla de adaptación de gradiente descendente para los componentes de w.
+b) Considere ahora una muestra de tamaño N, (X, Yn), n = 1,..., N. Usar el resultado anterior para deducir la regla de adaptación para la función de error de las n muestras.
+a) Wnew = Wold-n✶ derivada (E(w)conrespectoaw)
+Buscar
+:
+A
+#
+31°C Soleado
+(64))
+16:33 25/04/2023
+11
+
+
+
+
+﻿
+
+Cuestionario-1: Revisión del inte X +
+>
+D
+Х
+https://pradogrado2223.ugr.es/mod/quiz/review.php?attempt=350189&cmid=229109
+80%
+D
+ABP
+=
+Importar marcadores...
+=
+UNIVERSIDAD
+Mis cursos ▾
+Ir a... ▾
+DE GRANADA
+w Apuntes de la asignat... EL PLAN - DEPORTES /... → Comenzar a usar Firefox ✡ Most Visited Fedora Docs FM Fedora Magazine ► (3828) Adivina el Ani... Prado GRADO 22-23 Ayuda▾ Español - Internacional (es)▾
+Fedora Project User Communities
+>>
+Otros marcadores
+MUÑOZ SANCHEZ, DAVID
+Pregunta 6
+Finalizado
+Se puntúa 0,50
+sobre 1,00
+Desmarcar
+La dimensión de Vapnik-Chervonenkis (VC) es una propiedad numérica asociada a uno de los elementos que definen el problema de aprendizaje estadístico.¿Que nos dice dicha propiedad y a que elemento del aprendizaje se refiere? Detallar la contestación.
+Es una propiedad numérica asociada al conjunto de hipótesis. Nos dice el tamaño N máximo de la muestra para el cual se puede explicar completamente todas las dicotomías para un conjunto de hipótesis concreto. Lo cual nos viene a decir que la función de crecimiento evaluada en el de de un cierto conjunto de hipótesis equivalen a 2N para un cierto N dado. Un número mayor que ese, será < (2N
+Tal y como se ha definido, se puede intuir que es equivalente a restarle 1 al punto de ruptura.
+La dimensión VC es una propiedad de la clase de funciones usada y (en clasificación binaria) nos da el mayor tamaño muestral para el cual la clase de funciones es capaz de explicar completamente todas sus dicotomias.
+El caso de dimensión-VC finita nos garantiza que la regla ERM es suficiente para lograr una solución PAC al aprendizaje inductivo. En el caso de dimensión-VC infinita, solo se puede garantizar una solución bajo determinadas condiciones sobre la clase de funciones (jerarquia de clases de dimensión VC finita).
+Comentario:
+Nada se aporta del aprendizaje
+Pregunta 7
+Finalizado
+Se puntúa 0,50
+a) Identifique el origen de las fuentes de incertidumbre presentes en la solución PAC de un problema de aprendizaje. Justifique la respuesta.
+b) Cómo afecta la clase de funciones elegida al error de una solución PAC? Justifique la respuesta
+Buscar
+Εί
+C
+31°C Soleado
+(64))
+16:33 25/04/2023
+11
+
+
+
+
+
+﻿
+
+Cuestionario-1: Revisión del inte X +
+80%
+>
+D
+Х
+D
+ABP
+=
+Fedora Project User Communities
+>> MUÑOZ SANCHEZ, DAVID
+Otros marcadores
+https://pradogrado2223.ugr.es/mod/quiz/review.php?attempt=350189&cmid=229109
+Importar marcadores... w Apuntes de la asignat... EL PLAN - DEPORTES /... → Comenzar a usar Firefox ✡ Most Visited Fedora Docs FM Fedora Magazine ► (3828) Adivina el Ani...
+=
+UNIVERSIDAD
+DE GRANADA
+do GRADO 22-23
+Comentario:
+Pregunta 5 Finalizado
+Mis cursos ▾
+Ir a... ▾ Ayuda Español - Internacional (es) ▾
+Argumentación incorrecta. No se identifica el problema
+Considere la función de error definida para una muestra (x, y) por E(w) = (max(0,1 – ywx))2, donde x y w son vectores de igual dimensión fija e y Є {−1,1}, a) Deducir la regla de adaptación de gradiente descendente para los componentes de w.
+Se puntúa 0,00 sobre 1,00
+Marcar pregunta
+a) Wnew Wold n derivada (E(w)conrespectoaw)
+b) Considere ahora una muestra de tamaño N, (X, Yn), n = 1,..., N. Usar el resultado anterior para deducir la regla de adaptación para la función de error de las n muestras.
+N
+(w) asociada al promedio
+JEW Ow
+a) Derivando E(w)) respecto de w, tenemos =-2yx.max(0,-ywTx). Entonces la regla de adaptación del GD para w es Wnew = Wold + 2x max(0,y - wx). Es decir, Wnew = Wold si yw dx > 1y Wnew = Wold +12x(y-wax) en caso contrario.
+b) Ahora se pide calcular el gradiente de un promedio que se calcula como el promedio de los gradientes individuales,
+Wnew Wold +
+1/2
+x¡ · max (0, Yi — WoldTMX;) =
+O también Wrew = Wold +
+2N N
+1 Xj (Yj - Wold1xj) para yj > WoldTMxj
+Comentario: incorrecto
+Pregunta 6
+Finalizado
+Buscar
+La dimensión de Vapnik-Chervonenkis (VC) es una propiedad numérica asociada a uno de los elementos que definen el problema de aprendizaje estadístico.¿Que nos dice dicha propiedad y a que elemento del aprendizaje se refiere? Detallar la contestación.
+31°C Soleado
+(64))
+16:33 25/04/2023
+11
+
+
+
+
+
+
+
+﻿
+
+>
+D
+Х
+https://pradogrado2223.ugr.es/mod/quiz/review.php?attempt=350189&cmid=229109
+80%
+D
+ABP
+=
+Importar marcadores...
+=
+UNIVERSIDAD
+Mis cursos▾ Ir a... ▾
+DE GRANADA
+w Apuntes de la asignat... EL PLAN - DEPORTES /... → Comenzar a usar Firefox ✡ Most Visited Fedora Docs FM Fedora Magazine ► (3828) Adivina el Ani... Prado GRADO 22-23 Ayuda Español - Internacional (es) ▾
+Fedora Project User Communities
+>>
+Otros marcadores
+MUÑOZ SANCHEZ, DAVID
+Cuestionario-1: Revisión del inte X +
+Pregunta 9
+Finalizado
+Se puntúa 0,90
+sobre 1,00
+Desmarcar
+Considere que trabaja en una empresa dedicada a la construcción de máquinas para la clasificación automática de piezas de fruta por tipos y variedades. En particular la empresa trabaja con todo tipo de frutas duras no arracimadas como naranjas, manzanas, peras, melocotón, mangos, etc., hasta un total de 50 tipos distintos y cuatro variedades como máximo por tipo. Analice la situación y diga:
+A) ¿Considera que este problema es un problema para ser resuelto por aprendizaje o por diseño? Justifique su decisión con argumentos.
+B) En el caso de que decidan aproximarlo con aprendizaje:
+B1) Establezca de forma clara y precisa la estructura del espacio de etiquetas Yy la función f que etiqueta las piezas.
+B2) Un experto le indica que entre otras informaciones las siguientes variables deberían ser consideradas: color: (RGB), grado de esfericidad:, un valor en 0,1], volumen: un valor en cm3, tipo de de piel: un valor del conjunto (0,1,2).
+Describa la longitud y contenido del vector (x,y), siendo x la codificación dada al computador de las variables enumeradas e y su etiqueta.
+A) Considero que es un problema para ser resuelto por aprendizaje. Se podría modelar con una clasificación dentro de alguna de las 200 clases posibles, ya que tenemos
+50tiposde fruta * 4variedadescomomáximodecada fruta = 200clasesposiblesenelcasodequetodoslostipos cuentencon4variedades. Así pues, tendríamos un cierto vector de características numérico con diferente información de la fruta, tal como la intensidad de color, el color, la simetría, el peso, etc. Y se contaría con la Y como un vector de 200 etiquetas a lo sumo, siendo 1 aquella posición que es la clase a la que pertenece un cierto n.
+B1) Claramente, por lo que se ha explicado en el ejercicio anterior, nuestra función objetivo f es una función que va de X siendo el conjunto de vectores de características que se han definido a Y, tal y como se ha definido antes.
+B2) Tenemos y como un vector de 200 posiciones a lo sumo. Por otra parte, el vector de catacterísticas x, tiene que contar como mínimo con las variables que se nos dicen:
+• El color ocuparía 3 posiciones del vector (es RGB).
+• El grado de esfericidad 1 posición.
+• El volumen sería 1 posición.
+• El tipo de piel sería 1 posición.
+Con lo cual, se puede concluir, que el vector (x,y), tiene como mínimo 206 posiciones, contando con la suposición de que estamos en el peor de los casos e y ocupa 200 posiciones. Las otras 6 posiciones son las variables que hay que considerar sí o sí, lo que no cierra la puerta a que se puedan considerar otras.
+Buscar
+Εί
+31°C Soleado
+(64))
+16:33 25/04/2023
+11
+
+
+
+
+
+
+
+
+﻿
+
+Cuestionario-1: Revisión del inte X +
+https://pradogrado2223.ugr.es/mod/quiz/review.php?attempt=350189&cmid=229109
+80%
+>
+D
+Х
+D
+ABP
+=
+Importar marcadores... w Apuntes de la asignat... EL PLAN - DEPORTES/...
+=
+UNIVERSIDAD
+DE GRANADA
+Prado GRADO 22-23
+Mis cursos ▾
+Comenzar a usar Firefox ✡ Most Visited Fedora Docs FM Fedora Magazine ► (3828) Adivina el Ani... Ir a... ▾ Ayuda Español - Internacional (es) ▾
+Fedora Project User Communities
+>>
+Otros marcadores
+MUÑOZ SANCHEZ, DAVID
+Pregunta 8
+Finalizado
+Se puntúa 0,60 sobre 1,00
+Desmarcar
+Buscar
+a) Establezca el papel que juega la regla ERM en la solución PAC de un problema de aprendizaje estadístico por inducción. Justifiquela.
+b) Analice la regla SRM de aprendizaje y diga de que forma generaliza a la solución PAC.
+a) La regla ERM juega un papel bastante importante en la solución PAC, ya que, si se consigue con este un En aproximadamente 0, bajo otras ciertas condiciones se puede hablar de que Ein aproxima a Eout.
+b) SRM sin embargo es útil en los conjunto de hipótesis con due infinitos y generaliza la solución PAC de la forma de que vamos viendo si se cumple en una jerarquía creciente de conjuntos de hipótesis. No obstante, no nos dice nada sobre el conjunto completo, que es infinito.
+1.- La regla ERM garantiza una solución PAC al aprendizaje por inducción sobre clases de funciones de dimensión VC finita. Por tanto garantiza la extrapolacion de los resultados dentro de la muestra a fuera de la muestra.
+2.- La regla SRM funciona sobre una jerarquñía de clases de dimención VC finita. Debe resolver un problema PAC por cada clase de funciones de la jerarquía. Por tanto los tamaños muestrales mínimos para garantizar la solución PAC en cada clase de la jerarquía no tienen que ser iguales. En consecuencia la solución SRM no es una solución PAC sobre la clase de funciones con due = ∞. La generaliza en ese sentido, no hay un N a partir del cual podamos garantizar un error prefijado. El tamaño de N depende de la clase de funciones.
+Comentario:
+a) parcial. faltan argumentos
+b) parcial. faltan argumentos
+Εί
+31°C Soleado
+(64))
+16:33 25/04/2023
+11
+
+
+
+
+
+﻿
+
+Cuestionario-1: Revisión del inte X +
+https://pradogrado2223.ugr.es/mod/quiz/review.php?attempt=350189&cmid=229109
+80%
+>
+D
+Х
+D
+ABP
+=
+Importar marcadores... w Apuntes de la asignat... EL PLAN - DEPORTES/...
+=
+UNIVERSIDAD
+DE GRANADA
+Prado GRADO 22-23
+Mis cursos ▾
+Comenzar a usar Firefox ✡ Most Visited Fedora Docs FM Fedora Magazine ► (3828) Adivina el Ani... Ir a... ▾ Ayuda Español - Internacional (es) ▾
+Fedora Project User Communities
+>>
+Otros marcadores
+MUÑOZ SANCHEZ, DAVID
+Pregunta 8
+Finalizado
+Se puntúa 0,60 sobre 1,00
+Desmarcar
+Buscar
+a) Establezca el papel que juega la regla ERM en la solución PAC de un problema de aprendizaje estadístico por inducción. Justifiquela.
+b) Analice la regla SRM de aprendizaje y diga de que forma generaliza a la solución PAC.
+a) La regla ERM juega un papel bastante importante en la solución PAC, ya que, si se consigue con este un En aproximadamente 0, bajo otras ciertas condiciones se puede hablar de que Ein aproxima a Eout.
+b) SRM sin embargo es útil en los conjunto de hipótesis con due infinitos y generaliza la solución PAC de la forma de que vamos viendo si se cumple en una jerarquía creciente de conjuntos de hipótesis. No obstante, no nos dice nada sobre el conjunto completo, que es infinito.
+1.- La regla ERM garantiza una solución PAC al aprendizaje por inducción sobre clases de funciones de dimensión VC finita. Por tanto garantiza la extrapolacion de los resultados dentro de la muestra a fuera de la muestra.
+2.- La regla SRM funciona sobre una jerarquñía de clases de dimención VC finita. Debe resolver un problema PAC por cada clase de funciones de la jerarquía. Por tanto los tamaños muestrales mínimos para garantizar la solución PAC en cada clase de la jerarquía no tienen que ser iguales. En consecuencia la solución SRM no es una solución PAC sobre la clase de funciones con due = ∞. La generaliza en ese sentido, no hay un N a partir del cual podamos garantizar un error prefijado. El tamaño de N depende de la clase de funciones.
+Comentario:
+a) parcial. faltan argumentos
+b) parcial. faltan argumentos
+Εί
+31°C Soleado
+(64))
+16:33 25/04/2023
+11
+
+
+﻿
+
+Cuestionario-1: Revisión del inteX +
+Importar marcadores...
+Pregunta 7
+Finalizado
+UNIVERSIDAD
+DE GRANADA
+Se puntúa 0,50 sobre 1,00
+https://pradogrado2223.ugr.es/mod/quiz/review.php?attempt=350189&cmid=229109
+>
+D
+80%
+Fedora Project User Communities
+Mis cursos▾ Ir a... Ayuda▾ Español - Internacional (es) ▾
+w Apuntes de la asignat... EL PLAN - DEPORTES/... → Comenzar a usar Firefox ✡ Most Visited Fedora Docs FM Fedora Magazine (3828) Adivina el Ani... Prado GRADO 22-23
+a) Identifique el origen de las fuentes de incertidumbre presentes en la solución PAC de un problema de aprendizaje. Justifique la respuesta.
+b) Cómo afecta la clase de funciones elegida al error de una solución PAC? Justifique la respuesta
+Desmarcar
+a) Una de ellas es que se está asumiendo que los datos son independientes idénticamente distribuidos a partir de una cierta distribución de probabilidad P. En el caso de encontrarnos en un escenario con pocos datos o donde haya mucho ruido, por ejemplo, la solución PAC no nos garantiza nada. Así como cuando no se consigue aproximar Ein a 0 con una cierta clase de funciones.
+b) Partimos de que la clase de funciones cuenta con due finito. Mientras más grande sea este número, es decir, más complejidad tiene el conjunto de hipótesis, mayor probabilidad hay que obtener un Ein muy cercano a 0 pero peor se generaliza. Sin embargo, con un de menor, se puede esperar una mejor generalización. Todo bajo la hipótesis de que se tiene un N lo suficientemente grande.
+a) La solución PAC tiene dos fuentes de incertidumbre provenientes de las muestra.
+1) La primera está asociada al error entre la estimación de la muestra y el verdadero valor en la población y tiene como origen que el tamaño de la muestra necesariamente siempre es menor que el tamaño de la población.
+2) La segunda fuente de incertidumbre esta asociada a que la muestra se elige de forma aleatoria y por tanto para distintas muestras del mismo tamaño no podemos garantizar el mismo resultado pero si una probabildad sobre el resultado.
+b) En la solución PAC tenemos que minimizar dos errores a la vez: Ein y Eout Ein Supongamos un tamaño muestral N fijo y suficiente. En este caso, estos dos errores solo dependen de la clase de funciones. Con clases de funciones de dve pequeña, será difícil, en general, hacer que Ein→ 0, pero si podremos hacer Eout - Ein → 0 si N es suficientemente grande. En cambio si la doc es grande, será fácil hacer que Ein→ 0, pero será difícil que Eout Ein→ 0. El tamaño muestral N fija la complejidad máxima de la clase para un error dado.. En consecuencia, la elección de la clase de funciones es clave para obtener una buena solución PAC y la potencia de la misma debe depender del tamaño muestral disponible.
+Buscar
+Comentario:
+a) No se aporta
+b) bien
+Εί
+Х
+D
+ABP
+=
+>>
+Otros marcadores
+MUÑOZ SANCHEZ, DAVID
+31°C Soleado
+(64))
+16:33 25/04/2023
+11
+
+
+
+
+
+﻿
+
+Cuestionario-1: Revisión del inteX +
+https://pradogrado2223.ugr.es/mod/quiz/review.php?attempt=350189&cmid=229109
+>
+D
+80%
+Fedora Project User Communities
+Importar marcadores...
+=
+UNIVERSIDAD
+Mis cursos ▾ Ir a... ▾
+DE GRANADA
+Ayuda ▾
+w Apuntes de la asignat... EL PLAN - DEPORTES /... Comenzar a usar Firefox ✡ Most Visited Fedora Docs FM Fedora Magazine ► (3828) Adivina el Ani... Español - Internacional (es) ▾
+Prado GRADO 22-23
+b) No lo es, ya que en el desarrollo de clasificadores se minimizan funciones de la muestra que no tienen conocimento de la distribución de la población. Por otro lado, el hecho de que represente el menor error posible no es una ventaja en el desarrollo de nuevos algoritmos.
+Comentario:
+b) correcto
+Pregunta 11
+Sin contestar
+Cúales de las siguientes expresiones son posibles funciones de crecimiento mд(N) para algún conjunto de hipótesis 1+ N ; 1+N+ ; 2; 2[√]; 2[N/2] ; 1+N+
+N(N-1)
+Puntúa como 1,00
+donde - significa parte entera. Decir por qué.
+N(N-1)(N-2)
+P Marcar pregunta
+2N y todas todas aquellas que son polinómicas en N de acuerdo al resultad de Sauer-Shelah-Perles: 1,2,3,6
+◄ Avisos
+Buscar
+TH
+Finalizar revisión
+Х
+D
+ABP
+=
+>>
+Otros marcadores
+MUÑOZ SANCHEZ, DAVID
+31°C Soleado
+((4))
+Editor de Latex en PRADO ► 16:34 25/04/2023
+11
+
+
+
+
+
+﻿
+
+Cuestionario-1: Revisión del inte X +
+>
+D
+Х
+D
+ABP
+=
+>>
+Otros marcadores
+MUÑOZ SANCHEZ, DAVID
+Importar marcadores...
+=
+UNIVERSIDAD
+DE GRANADA
+https://pradogrado2223.ugr.es/mod/quiz/review.php?attempt=350189&cmid=229109
+80%
+w Apuntes de la asignat... EL PLAN - DEPORTES/... → Comenzar a usar Firefox ✡ Most Visited Fedora Docs FM Fedora Magazine (3828) Adivina el Ani... Prado GRADO 22-23 Ir a... ▾ Ayuda Español - Internacional (es) ▾
+Comentario:
+tipo-piel es incorrecto
+Mis cursos▾
+Fedora Project User Communities
+Pregunta 10
+Finalizado
+Se puntúa 0,50 sobre 1,00
+a) Diga como se define el error de Bayes y que papel juega en la teoría del aprendizaje estadístico.
+b) Diga si el error de Bayes es un elemento de ayuda en el desarrollo de nuevos algoritmos de aprendizaje automático.
+Desmarcar
+b) No, el error de Bayes es bastante complejo requiere de numerosos y complicados cálculos y por lo general no se usa en nuevos algoritmos de aprendizaje automático.
+a) Ahora se supone que conocemos la distribución de probabilidad sobre el espacio X XY. El errror de Bayes se define como el error que se obtiene de clasificar toda la poblacion con la regla: Asignar cada item a su clase de mayor probabilidad. Dado que se supone el conocimeneto de la distribución de probabilidad sobre la población, este error define la cota inferior del error que es posible alcanzar en un determindao problema con cualquier clasificador.
+b) No lo es, ya que en el desarrollo de clasificadores se minimizan funciones de la muestra que no tienen conocimeinto de la distribución de la población. Por otro lado, el hecho de que represente el menor error posible no es una ventaja en el desarrollo de nuevos algoritmos.
+Comentario:
+b) correcto
+Pregunta 11
+Sin contestar
+Cúales de las siguientes expresiones son posibles funciones de crecimiento mμ(N) para algún conjunto de hipótesis
+N(N-1)
+1+ N ; 1+N+
+;
+2N; 2[√] ; 2[N/2]
+N(N-1)(N-2)
+; 1+N+
+6
+Puntúa como
+Buscar
+E
+31°C Soleado
+(4))
+16:34 25/04/2023
+11
+
+
+
+
+
+
+﻿
+
+Cuestionario-1: Revisión del inte X +
+https://pradogrado2223.ugr.es/mod/quiz/review.php?attempt=350189&cmid=229109
+>
+D
+Х
+D
+ABP
+=
+>>
+Otros marcadores
+MUÑOZ SANCHEZ, DAVID
+80%
+Fedora Project User Communities
+Importar marcadores...
+=
+UNIVERSIDAD
+Mis cursos ▾
+DE GRANADA
+w Apuntes de la asignat... EL PLAN - DEPORTES /... → Comenzar a usar Firefox ✡ Most Visited Fedora Docs FM Fedora Magazine ► (3828) Adivina el Ani... Prado GRADO 22-23 Ir a... ▾ Ayuda Español - Internacional (es) ▾
+B1) Claramente, por lo que se ha explicado en el ejercicio anterior, nuestra función objetivo ƒ es una función que va de X siendo el conjunto de vectores de características que se han definido a Y, tal y como se ha definido antes.
+B2) Tenemos y como un vector de 200 posiciones a lo sumo. Por otra parte, el vector de catacterísticas x, tiene que contar como mínimo con las variables que se nos dicen:
+• El color ocuparía 3 posiciones del vector (es RGB).
+• El grado de esfericidad 1 posición.
+• El volumen sería 1 posición.
+• El tipo de piel sería 1 posición.
+Con lo cual, se puede concluir, que el vector (x,y), tiene como mínimo 206 posiciones, contando con la suposición de que estamos en el peor de los casos e y ocupa 200 posiciones. Las otras 6 posiciones son las variables que hay que considerar sí o sí, lo que no cierra la puerta a que se puedan considerar otras.
+Buscar
+A) Es un problema de aprendizaje. Diseño aunque posible, necesitaría del conocimiento de un modelo computacional sobre las caracteristicas de las frutas y sus variedades, y hasta la fecha no existen dichos modelos. Si se aprende los modelos entonces sería aprendizaje.
+50 tipos x 4 variedades son 200 clases.
+B1) Y esta compuesto por 200 etiquetas definidas cada una por un vector un binario de 200 elementos. Todos los elementos serían -1 menos uno, con un 1, en la posición ordinal de la clase. f es la función mapea cada vector de caraterísticas en un elemento de Y.
+B2) Cada variable debe expresarse como un valor númerico. Por tanto color es un vector de tres números reales, esfericidad y volumen un número cada uno y piel (categórica) un vector de tres elementos binarios (0 0 1). En total x se codifica en un vector de 3+1+1+3= 8 números e y en vector de 200 valores. Por tanto (x,y) es un vector de 208 números.
+Comentario:
+tipo-piel es incorrecto
+O
+TH
+31°C Soleado
+(64))
+16:33 25/04/2023
+11

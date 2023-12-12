@@ -1,7 +1,0 @@
-#JSGF V1.0;
-
-grammar dias;
-
-public <dias> = [el] lunes | [el] martes | [el] miercoles | [el] jueves | [el] viernes | [el] sabado | [el] domingo | hoy | ayer | mañana | pasado [mañana] | antes de ayer;
-
-

@@ -1,7 +1,0 @@
-#JSGF V1.0;
-
-grammar a_consultar;
-
-public <a_consultar> = complete [menu]| first | second | dessert;
-
-
