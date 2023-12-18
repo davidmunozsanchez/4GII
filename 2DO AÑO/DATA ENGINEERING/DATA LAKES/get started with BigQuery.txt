@@ -1,0 +1,35 @@
+Understanding BigQuery Data Organization
+
+In BigQuery, data tables are organized into units called datasets, which are scoped to your Google Cloud project. Tables are referenced using the format Project.dataset.table.
+
+Reasons for Structuring Information
+
+Organizing data into projects, datasets, and tables provides logical structuring. Multiple datasets can separate tables based on analytical domains, and project-level scoping isolates datasets for specific business needs.
+
+Billing and Query Execution
+
+Billing is associated with the project, and querying a table incurs charges to the project running the query. IAM permissions are required for query submission. Access control is managed through IAM at dataset, table, view, or column levels.
+
+Dataset Characteristics
+
+BigQuery datasets can be regional or multi-regional. Every table has a schema, and data storage is encrypted at rest and during transmission.
+
+Access Control and Logs
+
+Access control is handled through IAM roles, and logs are immutable, exportable, and cover admin activities and system events. Row Level Security in BigQuery involves creating policies to filter data based on user or group access.
+
+Materialized Views and Query Optimization
+
+Materialized views are persistent views that can improve query performance by caching results. BigQuery's query service works in collaboration with the storage service for efficient querying over large datasets.
+
+Federated Queries and Pricing
+
+Federated queries allow querying data in external sources without loading it into BigQuery. The query service caches results for 24 hours. Pricing is based on data processed, and the query validator helps estimate costs.
+
+Project Isolation and Public Datasets
+
+Projects can be isolated to share data without job execution access. Public datasets, with access granted to all authenticated users, make datasets public, with billing assigned to the user's project.
+
+Cost Attribution and Free Querying
+
+The cost of a query is assigned to the active project executing the query. BigQuery offers one TB of free querying per month.
