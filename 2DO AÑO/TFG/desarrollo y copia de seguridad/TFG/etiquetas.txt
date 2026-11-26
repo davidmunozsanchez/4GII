@@ -1,0 +1,136 @@
+Pac	Centro	Grupo	Etiqueta
+P01	HVN		1
+P02	HVN	ad	1
+P03	HVN		0
+P04	HVN		2
+P05	HVN		1
+P06	HVN		1
+P07	HVN		1
+P08	HVN	ad	1
+P09	HVN		1
+P10	HVN	ad	1
+P11	HVN		0
+P12	HVN	nor	0
+P13	HVN		2
+P14	HVN		1
+P15	HVN	nor	0
+P16	HVN		0
+P17	HVN	noad	0
+P18	HVN		1
+P19	HVN		0
+P20	HVN	noad	0
+P21	HVN	ad	1
+P22	HVN	ad	1
+P23	HVN		1
+P24	HVN	ad	1
+P25	HVN	nor	0
+P26	HVN	ad	0
+P27	HVN	nor	1
+P28	HVN	noad	0
+P29	HVN	ad	1
+P30	HVN	ad	1
+P31	HVN	ad	1
+P32	HVN	noad	0
+P33	HVN	ad	1
+P34	HVN	noad	0
+P35	HVN	ad	1
+P36	HVN	noad	0
+P37	HVN	ad	1
+P38	HVN	ad	1
+P39	HVN	noad	0
+P40	HVN	ad	1
+P41	HVN	noad	0
+P42	HVN	noad	0
+P43	HVN	noad	0
+P44	HVN	noad	0
+P45	HVN	ad	1
+P46	HVN	noad	0
+P47	HVN	noad	0
+P48	HVN	noad	0
+P49	HVN	ad	1
+P50	HVN	ad	1
+P51	HVN	ad	1
+P52	HVN	ad	1
+P53	HVN	noad	0
+P54	HVN	noad	0
+P55	HVN	ad	1
+P56	HVN	noad	0
+P57	HVN	ad	1
+P58	HVN	ad	1
+P59	HVN	ad	1
+P60	HVN	ad	1
+P61	HVN	noad	0
+P62	HVN	noad	0
+P63	HVN	ad	1
+P64	HVN	ad	1
+P65	HVN	noad	0
+P66	HVN	ad	1
+P67	HVN	noad	0
+P68	HVN	noad	0
+P69	HVN	noad	0
+P70	HVN	ad	2
+P71	HVN	noad	0
+P72	HVN	ad	1
+P73	HVN	ad	1
+P50	H9O	ad	1
+P51	H9O	nor	0
+P52	H9O	noad	1
+P53	H9O	ad	0
+P54	H9O	ad	1
+P55	H9O	ad	1
+P56	H9O	ad	1
+P57	H9O	ad	0
+P58	H9O	ad	1
+P59	H9O	noad	0
+P60	H9O	nor	0
+P61	H9O		0
+P62	H9O		0
+P63	H9O	nor	0
+P64	H9O		0
+P65	H9O	ad	1
+P66	H9O	nor	0
+P67	H9O	ad	1
+P68	H9O	nor	0
+P69	H9O		1
+P70	H9O	nor	0
+P71	H9O	noad	0
+P72	H9O	ad	1
+P73	H9O		0
+P74	H9O	ad	1
+P75	H9O	noad	0
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
